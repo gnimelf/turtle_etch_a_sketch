@@ -4,7 +4,7 @@ tim = Turtle()
 screen = Screen()
 
 
-def move_foward():
+def move_forward():
     tim.forward(10)
 
 
@@ -27,7 +27,7 @@ def clear():
 
 screen.listen()
 
-screen.onkey(move_foward, "Right")
+screen.onkey(move_forward, "Right")
 screen.onkey(move_back, "Left")
 screen.onkey(turn_left, "Up")
 screen.onkey(turn_right,"Down")
